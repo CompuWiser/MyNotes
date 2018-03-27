@@ -88,3 +88,6 @@ git fetch <remote-name> <branch-to-pull>
 
 git rebase -i HEAD~3    #i: interactive
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwNjMxNDk0MzFdfQ==
+-->
