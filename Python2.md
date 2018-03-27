@@ -283,3 +283,6 @@ Parent.__module__	#The name of the module in which this class was defined.
 Parent.__name__		#The name of the class.
 Child.__bases__	#The classes from which this class inherits.
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzYwMjM2NjI3XX0=
+-->
