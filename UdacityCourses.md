@@ -1,0 +1,91 @@
+## Full Stack Web Developer Nanodegree :
+
+1- [Programming Foundations with Python](https://eu.udacity.com/course/programming-foundations-with-python--ud036) 
+2- [Intro to HTML and CSS](https://eu.udacity.com/course/intro-to-html-and-css--ud304) 
+3- [Responsive Web Design Fundamentals](https://eu.udacity.com/course/responsive-web-design-fundamentals%E2%80%93ud893) 
+4- [Responsive Images](https://eu.udacity.com/course/responsive-images--ud882) 
+5- [Intro to Backend](https://www.udacity.com/course/intro-to-backend--ud171) 
+6- [Intro to Relational Databases](https://eu.udacity.com/course/intro-to-relational-databases--ud197):
+7- [Full Stack Foundations](https://eg.udacity.com/course/full-stack-foundations--ud088):
+8- [Authentication & Authorization: OAuth](https://eu.udacity.com/course/authentication-authorization-oauth--ud330) 
+9- [Intro to AJAX](https://eu.udacity.com/course/intro-to-ajax--ud110) 
+10- [JavaScript Design Patterns](https://eu.udacity.com/course/javascript-design-patterns--ud989) 
+11- [Developing Scalable Apps in Python](https://eu.udacity.com/course/developing-scalable-apps-in-python--ud858) 
+12- [Linux Command Line Basics](https://eu.udacity.com/course/linux-command-line-basics--ud595) 
+13- [Configuring Linux Web Servers](https://eu.udacity.com/course/configuring-linux-web-servers--ud299) 
+14- [Version Control with Git](https://eu.udacity.com/course/version-control-with-git--ud123) 
+15- [GitHub and Collaboration](https://eu.udacity.com/course/github-collaboration%E2%80%93ud456) 
+16- [Shell Workshop](https://eu.udacity.com/course/shell-workshop%E2%80%93ud206) 
+17- [HTTP & Web Servers](https://eu.udacity.com/course/http-web-servers--ud303) 
+18- [Designing RESTful APIs](https://eu.udacity.com/course/designing-restful-apis--ud388) 
+19- [Android Basics: User Interface](https://eu.udacity.com/course/android-basics-user-interface--ud8348) 
+20- [Android Basics: User Input](https://eu.udacity.com/course/android-basics-user-input--ud8362) 
+
+## Front-End Web Developer :
+
+1- [Intro to HTML and CSS](https://eg.udacity.com/course/intro-to-html-and-css--ud304) 
+2- [Responsive Web Design Fundamentals](https://eg.udacity.com/course/responsive-web-design-fundamentals--ud893) 
+3- [Responsive Images](https://eg.udacity.com/course/responsive-images--ud882) 
+4- [JavaScript Basics](https://eg.udacity.com/course/javascript-basics--ud804) 
+5- [Intro to jQuery](https://eg.udacity.com/course/intro-to-jquery--ud245) 
+6- [Object-Oriented JavaScript](https://eg.udacity.com/course/object-oriented-javascript--ud015) 
+7- [HTML5 Canvas](https://eg.udacity.com/course/html5-canvas--ud292) 
+8- [Website Performance Optimization](https://eg.udacity.com/course/website-performance-optimization--ud884) 
+9- [Browser Rendering Optimization](https://eg.udacity.com/course/browser-rendering-optimization--ud860) 
+10- [Intro to AJAX](https://eg.udacity.com/course/intro-to-ajax--ud110) 
+11- [JavaScript Design Patterns](https://eg.udacity.com/course/javascript-design-patterns--ud989) 
+12- [JavaScript Testing](https://eg.udacity.com/course/javascript-testing--ud549) 
+13- [Building High Conversion Web Forms](https://eg.udacity.com/course/building-high-conversion-web-forms--ud890) 
+14- [Web Tooling & Automation](https://eg.udacity.com/course/web-tooling-automation--ud892) 
+15- [JavaScript Promises](https://eg.udacity.com/course/javascript-promises--ud898) 
+16- [Offline Web Applications](https://eg.udacity.com/course/offline-web-applications--ud899) 
+17- [Web Accessibility](https://eg.udacity.com/course/web-accessibility--ud891) 
+18- [Front-End Frameworks](https://eg.udacity.com/course/front-end-frameworks--ud894) 
+19- [Client-Server Communications](https://eg.udacity.com/course/client-server-communication--ud897) 
+
+## Android:
+
+1- [Android Basics: User Interface](https://eu.udacity.com/course/android-basics-user-interface--ud834) 
+2- [Android Basics: User Input](https://eu.udacity.com/course/android-basics-user-input--ud836) 
+3- [Android Basics: Multi-screen Apps](https://eu.udacity.com/course/android-basics-multiscreen-apps--ud839) 
+4- [Android Basics: Networking](https://eu.udacity.com/course/android-basics-networking--ud843) 
+5- [Android Basics: Data Storage](https://eu.udacity.com/course/android-basics-data-storage--ud845) 
+6- [Developing Android Apps](https://eu.udacity.com/course/developing-android-apps--ud853) 
+7- [Advanced Android App Development](https://eu.udacity.com/course/advanced-android-app-development--ud855) 
+8- [Gradle for Android and Java](https://eu.udacity.com/course/gradle-for-android-and-java--ud867) 
+9- [Material Design for Android Developers](https://eu.udacity.com/course/material-design-for-android-developers--ud862) 
+10- [Android Wear Development](https://eu.udacity.com/course/android-wear-development--ud875A) 
+11- [Kotlin for Android Developers](https://www.udacity.com/course/kotlin-for-android-developers--ud888) 
+
+
+## Data Analyst:
+
+1- [Intro to Descriptive Statistics](https://eu.udacity.com/course/intro-to-descriptive-statistics--ud827) 
+2- [Intro to Inferential Statistics](https://eu.udacity.com/course/intro-to-inferential-statistics--ud201) 
+3- [Intro to Data Analysis](https://eu.udacity.com/course/intro-to-data-analysis--ud170) 
+4- [Data Wrangling with MongoDB](https://eu.udacity.com/course/data-wrangling-with-mongodb--ud032) 
+5- [Data Analysis with R](https://eu.udacity.com/course/data-analysis-with-r--ud651) 
+6- [Intro to Machine Learning](https://eu.udacity.com/course/intro-to-machine-learning--ud120) 
+7- [Data Visualization and D3.js](https://eu.udacity.com/course/data-visualization-and-d3js--ud507) 
+8- [Intro to HTML and CSS](https://eu.udacity.com/course/intro-to-html-and-css--ud304) 
+9- [JavaScript Basics](https://eu.udacity.com/course/javascript-basics--ud804) 
+10- [A/B Testing](https://eu.udacity.com/course/ab-testing--ud257) 
+11- [Problem Solving with Advanced Analytics](https://eu.udacity.com/course/problem-solving-with-advanced-analytics--ud976) 
+12- [Creating an Analytical Dataset](https://eu.udacity.com/course/creating-an-analytical-dataset--ud977) 
+13- [Classification Models](https://eu.udacity.com/course/classification-models--ud978) 
+14- [Data Visualization in Tableau](https://www.udacity.com/course/data-visualization-in-tableau--ud1006) 
+15- [A/B Testing for Business Analysts](https://eu.udacity.com/course/ab-testing--ud979) 
+16- [Time Series Forecasting](https://eu.udacity.com/course/time-series-forecasting--ud980) 
+17- [Segmentation and Clustering](https://eu.udacity.com/course/segmentation-and-clustering--ud981) 
+
+## Mobile Web Specialist:
+
+1- [Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893)
+2- [Learn Responsive Images](https://www.udacity.com/course/responsive-images--ud882)
+3- [Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891)
+4- [Asynchronous JavaScript Requests](https://www.udacity.com/course/asynchronous-javascript-requests--ud109)
+5- [ES6 - JavaScript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356)
+6- [Offline Web Applications](https://www.udacity.com/course/offline-web-applications--ud899)
+7- [Web Tooling & Automation](https://www.udacity.com/course/web-tooling-automation--ud892)
+8- [Client-Server Communication](https://www.udacity.com/course/client-server-communication--ud897)
+9- [Browser Rendering Optimization](https://www.udacity.com/course/browser-rendering-optimization--ud860)
