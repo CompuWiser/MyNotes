@@ -1,4 +1,4 @@
-# Python Notes, From OMAC-Udacity Course
+# Python
 
 ```py
 print 'shanioob' + 5/2		#will produce an error
@@ -284,5 +284,5 @@ Parent.__name__		#The name of the class.
 Child.__bases__	#The classes from which this class inherits.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwMjM2NjI3XX0=
+eyJoaXN0b3J5IjpbLTY5Nzc3Mzc1MV19
 -->
