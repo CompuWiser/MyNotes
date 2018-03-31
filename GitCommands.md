@@ -60,6 +60,7 @@ git branch
            (-d || --delete) <branch-name>
            (-D || -df ||--delete --force) <branch-name>
 
+git checkout . 	#will discard changes in the working directory
 git checkout <banch-name>
              -b <branch-name> <from> #create new branch
 
@@ -89,5 +90,5 @@ git fetch <remote-name> <branch-to-pull>
 git rebase -i HEAD~3    #i: interactive
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMzkxNzY1MV19
+eyJoaXN0b3J5IjpbODg0ODYwNjMzXX0=
 -->
