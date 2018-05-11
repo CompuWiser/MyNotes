@@ -26,9 +26,13 @@ div {
 }
 ```
 
-##J
+## jQuery
+
+```js
+$.fn 	//will list all jQuery functions
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzkwMDAwNiw4NzEzNTEwOTIsMTUzNj
+eyJoaXN0b3J5IjpbMTM1MTkwMzAwMyw4NzEzNTEwOTIsMTUzNj
 Y5MTU3MiwtMzE4MTg0Mjk4LC03OTg3NDk2NDQsNzQyODQzMTkz
 LC02MDAzMjcxNzNdfQ==
 -->
