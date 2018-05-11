@@ -8,7 +8,8 @@ div {
 }
 
 div {
-	
+	height: 250px;
+	overflow: auto;
 }
 ```
 
@@ -21,5 +22,5 @@ div {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzA4NjQwNjIsLTYwMDMyNzE3M119
+eyJoaXN0b3J5IjpbLTE0Nzg1ODM5OTksLTYwMDMyNzE3M119
 -->
