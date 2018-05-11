@@ -6,8 +6,13 @@ div {
 	height: 0;
 	padding-bottom: 50%;
 }
+
+div {
+	
+}
 ```
 
+## The Clear-Fix
 ```css
 .clearfix:after {
 	content: "";
@@ -16,5 +21,5 @@ div {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzU5NzQwNywtNjAwMzI3MTczXX0=
+eyJoaXN0b3J5IjpbLTE3MzA4NjQwNjIsLTYwMDMyNzE3M119
 -->
