@@ -17,10 +17,11 @@ div {
 ```css
 .clearfix:after {
 	content: "";
-	overflow: auto;
+	overflow: hidden;
 	clear: both;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyODQzMTkzLC02MDAzMjcxNzNdfQ==
+eyJoaXN0b3J5IjpbLTc5ODc0OTY0NCw3NDI4NDMxOTMsLTYwMD
+MyNzE3M119
 -->
