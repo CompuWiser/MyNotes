@@ -4,7 +4,7 @@
 div {
 	float: left;
 	height: 0;
-	padding-bottom: 50%;	//
+	padding-bottom: 50%;	/*percentage here is based on width*/
 }
 
 div {
@@ -22,5 +22,5 @@ div {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTU5NTA2NSwtNjAwMzI3MTczXX0=
+eyJoaXN0b3J5IjpbNzQyODQzMTkzLC02MDAzMjcxNzNdfQ==
 -->
