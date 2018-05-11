@@ -16,7 +16,7 @@ div {
 ## The Clear-Fix
 ```css
 .clearfix:after {
-   content: " "; /* Older browser do not support empty content */
+   content: " ";
    visibility: hidden;
    display: block;
    height: 0;
@@ -24,6 +24,6 @@ div {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzMwODY0ODUsLTc5ODc0OTY0NCw3ND
-I4NDMxOTMsLTYwMDMyNzE3M119
+eyJoaXN0b3J5IjpbLTMxODE4NDI5OCwtNzk4NzQ5NjQ0LDc0Mj
+g0MzE5MywtNjAwMzI3MTczXX0=
 -->
