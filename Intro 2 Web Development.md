@@ -4,9 +4,9 @@
 div {
 	float: left;
 	height: 0;
-	padding-bo
+	padding-bottom: 50%;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjIyOTA1MTJdfQ==
+eyJoaXN0b3J5IjpbLTYwMDMyNzE3M119
 -->
