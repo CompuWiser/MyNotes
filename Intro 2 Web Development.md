@@ -1,5 +1,6 @@
 
 ## To make two block elements have the same height
+
 ```css
 div {
 	float: left;
@@ -14,6 +15,7 @@ div {
 ```
 
 ## The Clear-Fix
+
 ```css
 .clearfix:after {
    content: " "; 
@@ -24,6 +26,7 @@ div {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjY5MTU3MiwtMzE4MTg0Mjk4LC03OT
-g3NDk2NDQsNzQyODQzMTkzLC02MDAzMjcxNzNdfQ==
+eyJoaXN0b3J5IjpbODcxMzUxMDkyLDE1MzY2OTE1NzIsLTMxOD
+E4NDI5OCwtNzk4NzQ5NjQ0LDc0Mjg0MzE5MywtNjAwMzI3MTcz
+XX0=
 -->
