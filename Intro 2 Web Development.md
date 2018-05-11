@@ -16,12 +16,14 @@ div {
 ## The Clear-Fix
 ```css
 .clearfix:after {
-	content: "";
-	overflow: hidden;
-	clear: both;
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODc0OTY0NCw3NDI4NDMxOTMsLTYwMD
-MyNzE3M119
+eyJoaXN0b3J5IjpbLTEwNzMwODY0ODUsLTc5ODc0OTY0NCw3ND
+I4NDMxOTMsLTYwMDMyNzE3M119
 -->
