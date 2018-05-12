@@ -35,10 +35,15 @@ $.fn 	//will list all jQuery functions
 ## AJAX using jQuery
 
 ```js
-$(".btn").click()
+$(".btn").click(function(){
+	$(".text").text("loading...");
+	$.ajax({
+		
+	});
+});
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzY2NTA4NTYsMTM1MTkwMzAwMyw4Nz
-EzNTEwOTIsMTUzNjY5MTU3MiwtMzE4MTg0Mjk4LC03OTg3NDk2
-NDQsNzQyODQzMTkzLC02MDAzMjcxNzNdfQ==
+eyJoaXN0b3J5IjpbMTkwOTI4MjYzNSwxMzUxOTAzMDAzLDg3MT
+M1MTA5MiwxNTM2NjkxNTcyLC0zMTgxODQyOTgsLTc5ODc0OTY0
+NCw3NDI4NDMxOTMsLTYwMDMyNzE3M119
 -->
