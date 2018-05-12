@@ -50,9 +50,16 @@ $(".btn").click(function(){
 	});
 });
 ```
+
+## Node
+
+```bash
+npm install -g nodemon
+nodemon app.js
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDI4NzI3NywtODAxNzg4ODUwLC0xNj
-U5OTE0NjksMTM1MTkwMzAwMyw4NzEzNTEwOTIsMTUzNjY5MTU3
-MiwtMzE4MTg0Mjk4LC03OTg3NDk2NDQsNzQyODQzMTkzLC02MD
-AzMjcxNzNdfQ==
+eyJoaXN0b3J5IjpbLTExMjI4OTcwNjksLTk3MDI4NzI3NywtOD
+AxNzg4ODUwLC0xNjU5OTE0NjksMTM1MTkwMzAwMyw4NzEzNTEw
+OTIsMTUzNjY5MTU3MiwtMzE4MTg0Mjk4LC03OTg3NDk2NDQsNz
+QyODQzMTkzLC02MDAzMjcxNzNdfQ==
 -->
