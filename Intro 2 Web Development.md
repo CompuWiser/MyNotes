@@ -42,9 +42,9 @@ $(".btn").click(function(){
 		url: "http://api.meetup.com/2/cities",
 		success: function(data){
 			data.results.forEach(function(cityElement){
-				let place = cityElement.city + ", " + cityElement.state;
+				let place = 
 
-				$(".text").append(`<p>${place}</p>`);
+				$(".text").append(`<p>${cityElement.city}, ${cityElement.state}}</p>`);
 			});
 		},
 		dataType: "jsonp"
@@ -52,7 +52,7 @@ $(".btn").click(function(){
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQ5NjI1NjIsLTE2NTk5MTQ2OSwxMz
+eyJoaXN0b3J5IjpbLTE4MzI4ODM4MjUsLTE2NTk5MTQ2OSwxMz
 UxOTAzMDAzLDg3MTM1MTA5MiwxNTM2NjkxNTcyLC0zMTgxODQy
 OTgsLTc5ODc0OTY0NCw3NDI4NDMxOTMsLTYwMDMyNzE3M119
 -->
