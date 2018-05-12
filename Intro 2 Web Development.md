@@ -41,14 +41,16 @@ $(".btn").click(function(){
 		type: "GET",
 		url: "http://api.meetup.com/2/cities",
 		success: function(data){
-			$(".text").text(JSON.stringify(data));
+			data.results.forEach(function(city){
+				
+			});
 		},
 		dataType: "jsonp"
 	});
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk5MTQ2OSwxMzUxOTAzMDAzLDg3MT
-M1MTA5MiwxNTM2NjkxNTcyLC0zMTgxODQyOTgsLTc5ODc0OTY0
-NCw3NDI4NDMxOTMsLTYwMDMyNzE3M119
+eyJoaXN0b3J5IjpbMTUyMDA5ODE1OCwtMTY1OTkxNDY5LDEzNT
+E5MDMwMDMsODcxMzUxMDkyLDE1MzY2OTE1NzIsLTMxODE4NDI5
+OCwtNzk4NzQ5NjQ0LDc0Mjg0MzE5MywtNjAwMzI3MTczXX0=
 -->
