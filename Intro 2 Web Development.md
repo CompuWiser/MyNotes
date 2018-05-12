@@ -38,12 +38,16 @@ $.fn 	//will list all jQuery functions
 $(".btn").click(function(){
 	$(".text").text("loading...");
 	$.ajax({
-		
+		type: "GET",
+		url: ,
+		success: function(data){
+			$(".text")
+		}
 	});
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTI4MjYzNSwxMzUxOTAzMDAzLDg3MT
-M1MTA5MiwxNTM2NjkxNTcyLC0zMTgxODQyOTgsLTc5ODc0OTY0
-NCw3NDI4NDMxOTMsLTYwMDMyNzE3M119
+eyJoaXN0b3J5IjpbLTE2NDQ3MzYwMDgsMTM1MTkwMzAwMyw4Nz
+EzNTEwOTIsMTUzNjY5MTU3MiwtMzE4MTg0Mjk4LC03OTg3NDk2
+NDQsNzQyODQzMTkzLC02MDAzMjcxNzNdfQ==
 -->
