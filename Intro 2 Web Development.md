@@ -39,7 +39,7 @@ $(".btn").click(function(){
 	$(".text").text("loading...");
 	$.ajax({
 		type: "GET",
-		url: ,
+		url: "http://api.meetup.com/2/cities",
 		success: function(data){
 			$(".text").text(JSON.stringify(data));
 		},
@@ -48,7 +48,7 @@ $(".btn").click(function(){
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwMjgzNDA1LDEzNTE5MDMwMDMsODcxMz
-UxMDkyLDE1MzY2OTE1NzIsLTMxODE4NDI5OCwtNzk4NzQ5NjQ0
-LDc0Mjg0MzE5MywtNjAwMzI3MTczXX0=
+eyJoaXN0b3J5IjpbLTE2NTk5MTQ2OSwxMzUxOTAzMDAzLDg3MT
+M1MTA5MiwxNTM2NjkxNTcyLC0zMTgxODQyOTgsLTc5ODc0OTY0
+NCw3NDI4NDMxOTMsLTYwMDMyNzE3M119
 -->
