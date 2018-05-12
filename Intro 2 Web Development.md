@@ -31,8 +31,14 @@ div {
 ```js
 $.fn 	//will list all jQuery functions
 ```
+
+## AJAX using jQuery
+
+```js
+$(".btn").click()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTkwMzAwMyw4NzEzNTEwOTIsMTUzNj
-Y5MTU3MiwtMzE4MTg0Mjk4LC03OTg3NDk2NDQsNzQyODQzMTkz
-LC02MDAzMjcxNzNdfQ==
+eyJoaXN0b3J5IjpbLTE0MzY2NTA4NTYsMTM1MTkwMzAwMyw4Nz
+EzNTEwOTIsMTUzNjY5MTU3MiwtMzE4MTg0Mjk4LC03OTg3NDk2
+NDQsNzQyODQzMTkzLC02MDAzMjcxNzNdfQ==
 -->
