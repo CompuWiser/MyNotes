@@ -42,7 +42,7 @@ $(".btn").click(function(){
 		url: "http://api.meetup.com/2/cities",
 		success: function(data){
 			data.results.forEach(function(cityElement){
-				let place = 
+				let place = cityElement.city + ", " + cityElement.state'4
 			});
 		},
 		dataType: "jsonp"
@@ -50,7 +50,7 @@ $(".btn").click(function(){
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDE2MTczMDEsLTE2NTk5MTQ2OSwxMz
-UxOTAzMDAzLDg3MTM1MTA5MiwxNTM2NjkxNTcyLC0zMTgxODQy
-OTgsLTc5ODc0OTY0NCw3NDI4NDMxOTMsLTYwMDMyNzE3M119
+eyJoaXN0b3J5IjpbMTE3MzEzOTYxOCwtMTY1OTkxNDY5LDEzNT
+E5MDMwMDMsODcxMzUxMDkyLDE1MzY2OTE1NzIsLTMxODE4NDI5
+OCwtNzk4NzQ5NjQ0LDc0Mjg0MzE5MywtNjAwMzI3MTczXX0=
 -->
