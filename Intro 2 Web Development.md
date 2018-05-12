@@ -41,13 +41,14 @@ $(".btn").click(function(){
 		type: "GET",
 		url: ,
 		success: function(data){
-			$(".text")
-		}
+			$(".text").text(JSON.stringify(data));
+		},
+		dataType: "jsonp"
 	});
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ3MzYwMDgsMTM1MTkwMzAwMyw4Nz
-EzNTEwOTIsMTUzNjY5MTU3MiwtMzE4MTg0Mjk4LC03OTg3NDk2
-NDQsNzQyODQzMTkzLC02MDAzMjcxNzNdfQ==
+eyJoaXN0b3J5IjpbODIwMjgzNDA1LDEzNTE5MDMwMDMsODcxMz
+UxMDkyLDE1MzY2OTE1NzIsLTMxODE4NDI5OCwtNzk4NzQ5NjQ0
+LDc0Mjg0MzE5MywtNjAwMzI3MTczXX0=
 -->
