@@ -35,15 +35,15 @@ $.fn 	//will list all jQuery functions
 ## AJAX using jQuery
 
 ```js
-let 
+let $txt = $(".text");
 $(".btn").click(function(){
-	$(".text").text("loading...");
+	$txt.text("loading...");
 	$.ajax({
 		type: "GET",
 		url: "http://api.meetup.com/2/cities",
 		success: function(data){
 			data.results.forEach(function(cityElement){
-				$(".text").append(`<p>${cityElement.city}, ${cityElement.state}</p>`);
+				$txt.append(`<p>${cityElement.city}, ${cityElement.state}</p>`);
 			});
 		},
 		dataType: "jsonp"
@@ -51,7 +51,7 @@ $(".btn").click(function(){
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTUwNzc3MiwtMTY1OTkxNDY5LDEzNT
+eyJoaXN0b3J5IjpbLTgwMTc4ODg1MCwtMTY1OTkxNDY5LDEzNT
 E5MDMwMDMsODcxMzUxMDkyLDE1MzY2OTE1NzIsLTMxODE4NDI5
 OCwtNzk4NzQ5NjQ0LDc0Mjg0MzE5MywtNjAwMzI3MTczXX0=
 -->
