@@ -75,6 +75,10 @@ nodemon app.js
 
 ### Express
 
+```bash
+npm install express
+```
+
 ```js
 var express = require('express');
 var app = express();
@@ -90,9 +94,9 @@ var server = app.listen(8080, function() {
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTUwODM4OSw4ODMwMzUyNjgsLTExMj
-I4OTcwNjksLTk3MDI4NzI3NywtODAxNzg4ODUwLC0xNjU5OTE0
-NjksMTM1MTkwMzAwMyw4NzEzNTEwOTIsMTUzNjY5MTU3MiwtMz
-E4MTg0Mjk4LC03OTg3NDk2NDQsNzQyODQzMTkzLC02MDAzMjcx
-NzNdfQ==
+eyJoaXN0b3J5IjpbMTE5MzcwMjQzNSwxMjUxNTA4Mzg5LDg4Mz
+AzNTI2OCwtMTEyMjg5NzA2OSwtOTcwMjg3Mjc3LC04MDE3ODg4
+NTAsLTE2NTk5MTQ2OSwxMzUxOTAzMDAzLDg3MTM1MTA5MiwxNT
+M2NjkxNTcyLC0zMTgxODQyOTgsLTc5ODc0OTY0NCw3NDI4NDMx
+OTMsLTYwMDMyNzE3M119
 -->
