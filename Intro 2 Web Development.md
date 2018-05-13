@@ -114,14 +114,14 @@ var app = express();
 app.get('/team/:name', function (req, res) {
    res.setHeader('Content-Type', 'text/plain');
    
-   // will receive 
+   // will receive any parameter as input from user
    res.send("You picked " + req.params.name);
 });
 
 var server = app.listen(8080);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTQ5Mjc4MywtOTYwMjc4MTc5LDExOT
+eyJoaXN0b3J5IjpbMTMxNDY0NDM3NywtOTYwMjc4MTc5LDExOT
 M3MDI0MzUsMTI1MTUwODM4OSw4ODMwMzUyNjgsLTExMjI4OTcw
 NjksLTk3MDI4NzI3NywtODAxNzg4ODUwLC0xNjU5OTE0NjksMT
 M1MTkwMzAwMyw4NzEzNTEwOTIsMTUzNjY5MTU3MiwtMzE4MTg0
