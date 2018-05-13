@@ -53,11 +53,6 @@ $(".btn").click(function(){
 
 ## Node
 
-```bash
-npm install -g nodemon
-nodemon app.js
-```
-
 ### Node basic app
 
 ```js
@@ -71,8 +66,20 @@ http.createServer(function (req, res) {
 
 console.log('Server running at http://127.0.0.1:8080/');
 ```
+### NodeMon
+
+```bash
+npm install -g nodemon
+nodemon app.js
+```
+
+### Express
+
+```js
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzIwNTYzMTgsLTExMjI4OTcwNjksLT
+eyJoaXN0b3J5IjpbLTE3NjgyNDk1MTMsLTExMjI4OTcwNjksLT
 k3MDI4NzI3NywtODAxNzg4ODUwLC0xNjU5OTE0NjksMTM1MTkw
 MzAwMyw4NzEzNTEwOTIsMTUzNjY5MTU3MiwtMzE4MTg0Mjk4LC
 03OTg3NDk2NDQsNzQyODQzMTkzLC02MDAzMjcxNzNdfQ==
