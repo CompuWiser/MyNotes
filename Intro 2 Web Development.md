@@ -113,16 +113,17 @@ var app = express();
 
 app.get('/team/:name', function(req, res){
   res.setHeader('Content-Type','text/plain');
+
+  
   res.send("You picked " + req.params.name);
 });
 
 var server = app.listen(8080);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTE2Mzg1MiwtOTYwMjc4MTc5LDExOT
-M3MDI0MzUsMTI1MTUwODM4OSw4ODMwMzUyNjgsLTExMjI4OTcw
-NjksLTk3MDI4NzI3NywtODAxNzg4ODUwLC0xNjU5OTE0NjksMT
-M1MTkwMzAwMyw4NzEzNTEwOTIsMTUzNjY5MTU3MiwtMzE4MTg0
-Mjk4LC03OTg3NDk2NDQsNzQyODQzMTkzLC02MDAzMjcxNzNdfQ
-==
+eyJoaXN0b3J5IjpbMzA5MTExNzg0LC05NjAyNzgxNzksMTE5Mz
+cwMjQzNSwxMjUxNTA4Mzg5LDg4MzAzNTI2OCwtMTEyMjg5NzA2
+OSwtOTcwMjg3Mjc3LC04MDE3ODg4NTAsLTE2NTk5MTQ2OSwxMz
+UxOTAzMDAzLDg3MTM1MTA5MiwxNTM2NjkxNTcyLC0zMTgxODQy
+OTgsLTc5ODc0OTY0NCw3NDI4NDMxOTMsLTYwMDMyNzE3M119
 -->
