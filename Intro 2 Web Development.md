@@ -93,10 +93,23 @@ var server = app.listen(8080, function() {
     console.log('Listening on port 8080');
 });
 ```
+
+#### Express Static Assits
+
+```js
+var express = require('express');
+var app = express();
+
+app.use(express.static(__dirname + '/public'));
+
+var server = app.listen(8080);
+```
+
+#### Re
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzcwMjQzNSwxMjUxNTA4Mzg5LDg4Mz
-AzNTI2OCwtMTEyMjg5NzA2OSwtOTcwMjg3Mjc3LC04MDE3ODg4
-NTAsLTE2NTk5MTQ2OSwxMzUxOTAzMDAzLDg3MTM1MTA5MiwxNT
-M2NjkxNTcyLC0zMTgxODQyOTgsLTc5ODc0OTY0NCw3NDI4NDMx
-OTMsLTYwMDMyNzE3M119
+eyJoaXN0b3J5IjpbMTg0NTQ3OTc3NSwxMTkzNzAyNDM1LDEyNT
+E1MDgzODksODgzMDM1MjY4LC0xMTIyODk3MDY5LC05NzAyODcy
+NzcsLTgwMTc4ODg1MCwtMTY1OTkxNDY5LDEzNTE5MDMwMDMsOD
+cxMzUxMDkyLDE1MzY2OTE1NzIsLTMxODE4NDI5OCwtNzk4NzQ5
+NjQ0LDc0Mjg0MzE5MywtNjAwMzI3MTczXX0=
 -->
