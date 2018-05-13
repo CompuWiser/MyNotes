@@ -76,11 +76,20 @@ nodemon app.js
 ### Express
 
 ```js
+var express = require('express');
+var app = express();
 
+app.get('/hello.txt', function(req, res){
+  res.send('Hello World');
+});
+
+var server = app.listen(8080, function() {
+    console.log('Listening on port 8080');
+});
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjgyNDk1MTMsLTExMjI4OTcwNjksLT
-k3MDI4NzI3NywtODAxNzg4ODUwLC0xNjU5OTE0NjksMTM1MTkw
-MzAwMyw4NzEzNTEwOTIsMTUzNjY5MTU3MiwtMzE4MTg0Mjk4LC
-03OTg3NDk2NDQsNzQyODQzMTkzLC02MDAzMjcxNzNdfQ==
+eyJoaXN0b3J5IjpbODgzMDM1MjY4LC0xMTIyODk3MDY5LC05Nz
+AyODcyNzcsLTgwMTc4ODg1MCwtMTY1OTkxNDY5LDEzNTE5MDMw
+MDMsODcxMzUxMDkyLDE1MzY2OTE1NzIsLTMxODE4NDI5OCwtNz
+k4NzQ5NjQ0LDc0Mjg0MzE5MywtNjAwMzI3MTczXX0=
 -->
