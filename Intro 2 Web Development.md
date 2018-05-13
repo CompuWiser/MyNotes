@@ -79,6 +79,8 @@ nodemon app.js
 var express = require('express');
 var app = express();
 
+//var  app  =  require("express")();
+
 app.get('/hello.txt', function(req, res){
   res.send('Hello World');
 });
@@ -88,8 +90,9 @@ var server = app.listen(8080, function() {
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzMDM1MjY4LC0xMTIyODk3MDY5LC05Nz
-AyODcyNzcsLTgwMTc4ODg1MCwtMTY1OTkxNDY5LDEzNTE5MDMw
-MDMsODcxMzUxMDkyLDE1MzY2OTE1NzIsLTMxODE4NDI5OCwtNz
-k4NzQ5NjQ0LDc0Mjg0MzE5MywtNjAwMzI3MTczXX0=
+eyJoaXN0b3J5IjpbMTI1MTUwODM4OSw4ODMwMzUyNjgsLTExMj
+I4OTcwNjksLTk3MDI4NzI3NywtODAxNzg4ODUwLC0xNjU5OTE0
+NjksMTM1MTkwMzAwMyw4NzEzNTEwOTIsMTUzNjY5MTU3MiwtMz
+E4MTg0Mjk4LC03OTg3NDk2NDQsNzQyODQzMTkzLC02MDAzMjcx
+NzNdfQ==
 -->
