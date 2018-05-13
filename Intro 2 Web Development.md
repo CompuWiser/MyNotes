@@ -108,12 +108,21 @@ var server = app.listen(8080);
 #### Receiving Parameters using Express
 
 ```js
+var express = require('express');
+var app = express();
 
+app.get('/team/:name', function(req, res){
+  res.setHeader('Content-Type','text/plain');
+  res.send("You picked " + req.params.name);
+});
+
+var server = app.listen(8080);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDI3ODE3OSwxMTkzNzAyNDM1LDEyNT
-E1MDgzODksODgzMDM1MjY4LC0xMTIyODk3MDY5LC05NzAyODcy
-NzcsLTgwMTc4ODg1MCwtMTY1OTkxNDY5LDEzNTE5MDMwMDMsOD
-cxMzUxMDkyLDE1MzY2OTE1NzIsLTMxODE4NDI5OCwtNzk4NzQ5
-NjQ0LDc0Mjg0MzE5MywtNjAwMzI3MTczXX0=
+eyJoaXN0b3J5IjpbMTcyMTE2Mzg1MiwtOTYwMjc4MTc5LDExOT
+M3MDI0MzUsMTI1MTUwODM4OSw4ODMwMzUyNjgsLTExMjI4OTcw
+NjksLTk3MDI4NzI3NywtODAxNzg4ODUwLC0xNjU5OTE0NjksMT
+M1MTkwMzAwMyw4NzEzNTEwOTIsMTUzNjY5MTU3MiwtMzE4MTg0
+Mjk4LC03OTg3NDk2NDQsNzQyODQzMTkzLC02MDAzMjcxNzNdfQ
+==
 -->
