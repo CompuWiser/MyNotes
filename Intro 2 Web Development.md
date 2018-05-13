@@ -121,9 +121,33 @@ app.get('/team/:name', function (req, res) {
 var server = app.listen(8080);
 ```
 
-#### 
+#### Posting to Server Using Express
+
+```js
+var express = require('express');
+var app = express();
+var bodyParser = require('body-parser')
+app.use(bodyParser.json());
+
+app.use(express.static(__dirname + '/public'));
+
+app.post('/login', function (req, res) {
+   console.log(req.body.username + " " + req.body.password);
+   if (req.body.username === "brian" && req.body.password === "pass") {
+      res.json(200, {
+         status: "success"
+      });
+   } else {
+      res.json(401, {
+         status: "failure"
+      })
+   }
+});
+
+var server = app.listen(8080);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTU3MDAxNywxMzE0NjQ0Mzc3LC05Nj
+eyJoaXN0b3J5IjpbLTY1NTQzNjk4NiwxMzE0NjQ0Mzc3LC05Nj
 AyNzgxNzksMTE5MzcwMjQzNSwxMjUxNTA4Mzg5LDg4MzAzNTI2
 OCwtMTEyMjg5NzA2OSwtOTcwMjg3Mjc3LC04MDE3ODg4NTAsLT
 E2NTk5MTQ2OSwxMzUxOTAzMDAzLDg3MTM1MTA5MiwxNTM2Njkx
