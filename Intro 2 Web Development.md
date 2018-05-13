@@ -105,9 +105,13 @@ app.use(express.static(__dirname + '/public'));
 var server = app.listen(8080);
 ```
 
-#### Re
+#### Receiving Parameters using Express
+
+```js
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTQ3OTc3NSwxMTkzNzAyNDM1LDEyNT
+eyJoaXN0b3J5IjpbLTk2MDI3ODE3OSwxMTkzNzAyNDM1LDEyNT
 E1MDgzODksODgzMDM1MjY4LC0xMTIyODk3MDY5LC05NzAyODcy
 NzcsLTgwMTc4ODg1MCwtMTY1OTkxNDY5LDEzNTE5MDMwMDMsOD
 cxMzUxMDkyLDE1MzY2OTE1NzIsLTMxODE4NDI5OCwtNzk4NzQ5
